@@ -29,5 +29,7 @@ RUN pip install matplotlib scikit-image pypdf2 wand Pillow
 RUN apt install curl
 
 # Install jcvi
-RUN pip install git+git://github.com/tanghaibao/jcvi.git
+RUN pip install git+git://github.com/scottcain/jcvi.git
+
+VOLUME /data
 WORKDIR /
